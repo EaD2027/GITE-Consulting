@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GITE Consultora</title>
+  <title>Solstice Consultora</title>
   <meta name="description" content="Consultora especializada en estrategia, innovación y crecimiento empresarial." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --primary: #0f172a;
@@ -22,7 +23,9 @@
       --radius: 18px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     html {
       scroll-behavior: smooth;
@@ -41,7 +44,10 @@
       text-decoration: none;
     }
 
-    img { max-width: 100%; display: block; }
+    img {
+      max-width: 100%;
+      display: block;
+    }
 
     .container {
       width: min(1120px, calc(100% - 32px));
@@ -49,7 +55,7 @@
     }
 
     header {
-      background: rgba(255,255,255,0.85);
+      background: rgba(255, 255, 255, 0.85);
       backdrop-filter: blur(10px);
       position: sticky;
       top: 0;
@@ -62,27 +68,24 @@
       align-items: center;
       justify-content: space-between;
       min-height: 78px;
+      gap: 20px;
     }
 
     .brand {
       display: flex;
       align-items: center;
-      gap: 12px;
       font-weight: 800;
       letter-spacing: -0.04em;
       font-size: 1.2rem;
+      flex-shrink: 0;
     }
 
-    .brand-mark {
-      width: 38px;
-      height: 38px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      display: grid;
-      place-items: center;
-      color: var(--white);
-      font-weight: 800;
-      font-size: 0.9rem;
+    .brand-logo {
+      display: block;
+      width: 180px;
+      height: 72px;
+      object-fit: cover;
+      object-position: center;
     }
 
     .nav-links {
@@ -119,7 +122,7 @@
     .btn-primary {
       background: linear-gradient(135deg, var(--secondary), #1d4ed8);
       color: var(--white);
-      box-shadow: 0 14px 28px rgba(30,58,138,0.24);
+      box-shadow: 0 14px 28px rgba(30, 58, 138, 0.24);
     }
 
     .btn-primary:hover {
@@ -135,7 +138,7 @@
     .hero {
       padding: 80px 0 60px;
       background:
-        radial-gradient(circle at top right, rgba(245,158,11,0.22), transparent 20%),
+        radial-gradient(circle at top right, rgba(245, 158, 11, 0.22), transparent 20%),
         linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
     }
 
@@ -150,9 +153,9 @@
       display: inline-flex;
       align-items: center;
       padding: 8px 14px;
-      border: 1px solid rgba(30,58,138,0.15);
+      border: 1px solid rgba(30, 58, 138, 0.15);
       border-radius: 999px;
-      background: rgba(255,255,255,0.7);
+      background: rgba(255, 255, 255, 0.7);
       color: var(--secondary);
       font-size: 0.8rem;
       font-weight: 700;
@@ -210,7 +213,7 @@
       border-radius: 28px;
       padding: 22px;
       box-shadow: var(--shadow);
-      border: 1px solid rgba(148,163,184,0.15);
+      border: 1px solid rgba(148, 163, 184, 0.15);
     }
 
     .dashboard {
@@ -244,8 +247,8 @@
     }
 
     .badge {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 999px;
       padding: 7px 12px;
       font-size: 0.8rem;
@@ -253,8 +256,8 @@
     }
 
     .chart {
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 18px;
       padding: 16px;
       position: relative;
@@ -278,8 +281,8 @@
     }
 
     .mini-card {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 18px;
       padding: 18px 20px;
       margin-top: 18px;
@@ -295,7 +298,7 @@
     }
 
     .mini-card span {
-      color: rgba(255,255,255,0.75);
+      color: rgba(255, 255, 255, 0.75);
     }
 
     section {
@@ -331,7 +334,7 @@
       border-radius: var(--radius);
       padding: 28px 22px;
       box-shadow: var(--shadow);
-      border: 1px solid rgba(148,163,184,0.12);
+      border: 1px solid rgba(148, 163, 184, 0.12);
     }
 
     .icon {
@@ -367,8 +370,8 @@
 
     .about {
       background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-      border-top: 1px solid rgba(148,163,184,0.12);
-      border-bottom: 1px solid rgba(148,163,184,0.12);
+      border-top: 1px solid rgba(148, 163, 184, 0.12);
+      border-bottom: 1px solid rgba(148, 163, 184, 0.12);
     }
 
     .about-grid {
@@ -383,14 +386,14 @@
       border-radius: 26px;
       box-shadow: var(--shadow);
       overflow: hidden;
-      border: 1px solid rgba(148,163,184,0.12);
+      border: 1px solid rgba(148, 163, 184, 0.12);
     }
 
     .about-visual {
       min-height: 420px;
       background:
-        linear-gradient(135deg, rgba(30,58,138,0.88), rgba(18,34,72,0.76)),
-        url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+        linear-gradient(135deg, rgba(30, 58, 138, 0.88), rgba(18, 34, 72, 0.76)),
+        url("https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat;
       position: relative;
     }
 
@@ -399,9 +402,9 @@
       bottom: 22px;
       left: 22px;
       right: 22px;
-      background: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
       backdrop-filter: blur(8px);
-      border: 1px solid rgba(255,255,255,0.14);
+      border: 1px solid rgba(255, 255, 255, 0.14);
       border-radius: 18px;
       padding: 18px 20px;
       color: var(--white);
@@ -456,7 +459,7 @@
 
     .step {
       background: var(--white);
-      border: 1px solid rgba(148,163,184,0.12);
+      border: 1px solid rgba(148, 163, 184, 0.12);
       border-radius: 20px;
       padding: 24px 20px;
       box-shadow: var(--shadow);
@@ -496,8 +499,8 @@
     }
 
     .metric-box {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
       border-radius: 20px;
       padding: 26px 20px;
       text-align: center;
@@ -511,7 +514,7 @@
     }
 
     .metric-box span {
-      color: rgba(255,255,255,0.8);
+      color: rgba(255, 255, 255, 0.8);
     }
 
     .testimonials {
@@ -525,7 +528,7 @@
       border-radius: 22px;
       padding: 24px;
       box-shadow: var(--shadow);
-      border: 1px solid rgba(148,163,184,0.12);
+      border: 1px solid rgba(148, 163, 184, 0.12);
     }
 
     .stars {
@@ -546,7 +549,7 @@
       align-items: center;
       gap: 12px;
       padding-top: 10px;
-      border-top: 1px solid rgba(148,163,184,0.12);
+      border-top: 1px solid rgba(148, 163, 184, 0.12);
     }
 
     .avatar {
@@ -596,12 +599,12 @@
 
     .cta-box p {
       margin: 0;
-      color: rgba(255,255,255,0.76);
+      color: rgba(255, 255, 255, 0.76);
     }
 
     footer {
       background: #020817;
-      color: rgba(255,255,255,0.8);
+      color: rgba(255, 255, 255, 0.8);
       padding: 28px 0 46px;
     }
 
@@ -610,7 +613,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 18px;
-      border-top: 1px solid rgba(255,255,255,0.08);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
       padding-top: 24px;
     }
 
@@ -651,6 +654,15 @@
         display: none;
       }
 
+      .brand-logo {
+        width: 145px;
+        height: 58px;
+      }
+
+      .nav-actions .btn {
+        padding: 12px 18px;
+      }
+
       .hero {
         padding-top: 48px;
       }
@@ -670,21 +682,30 @@
       .cta-box {
         padding: 32px 22px;
       }
+
+      .footer-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
+
 <body>
   <header>
     <div class="container">
-      <nav class="nav">
-        <a href="#inicio" class="brand">
-          <span class="brand-mark">S</span>
-          Solstice
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#inicio" class="brand" aria-label="GITE — Grupo de Investigación en Tecnología Educativa">
+          <img
+            src="logo-gite.png"
+            alt="GITE — Grupo de Investigación en Tecnología Educativa"
+            class="brand-logo"
+          />
         </a>
 
         <div class="nav-links">
-          <a href="#nosotros">Elsa</a>
-          <a href="#servicios">Dario</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#servicios">Servicios</a>
           <a href="#proceso">Proceso</a>
           <a href="#casos">Casos</a>
           <a href="#contacto">Contacto</a>
@@ -738,9 +759,9 @@
             </div>
 
             <div class="chart">
-              <div style="display:flex; justify-content:space-between; align-items: end;">
+              <div style="display:flex; justify-content:space-between; align-items:end;">
                 <div>
-                  <div style="font-size:0.8rem; color: rgba(255,255,255,0.72);">Ingresos</div>
+                  <div style="font-size:0.8rem; color:rgba(255,255,255,0.72);">Ingresos</div>
                   <strong style="font-size:2.4rem; letter-spacing:-0.06em;">$1.24M</strong>
                 </div>
                 <div style="font-size:0.8rem; color:#bbf7d0;">+18.2%</div>
@@ -787,16 +808,16 @@
           </div>
 
           <div class="about-panel about-copy">
-            <p style="color: var(--muted); margin: 0;">
+            <p style="color:var(--muted); margin:0;">
               En Solstice, trabajamos junto a empresas y equipos directivos para resolver
               desafíos complejos, diseñar estrategias de crecimiento y fortalecer la ejecución.
             </p>
 
             <ul class="check-list">
-              <li><span class="check">?</span> Diagnósticos estratégicos y de operación.</li>
-              <li><span class="check">?</span> Modelos de negocio y planes de expansión.</li>
-              <li><span class="check">?</span> Aceleración de procesos y transformación digital.</li>
-              <li><span class="check">?</span> Mentoría para equipos de dirección y liderazgo.</li>
+              <li><span class="check" aria-hidden="true">✓</span> Diagnósticos estratégicos y de operación.</li>
+              <li><span class="check" aria-hidden="true">✓</span> Modelos de negocio y planes de expansión.</li>
+              <li><span class="check" aria-hidden="true">✓</span> Aceleración de procesos y transformación digital.</li>
+              <li><span class="check" aria-hidden="true">✓</span> Mentoría para equipos de dirección y liderazgo.</li>
             </ul>
           </div>
         </div>
@@ -917,8 +938,8 @@
 
         <div class="testimonials">
           <article class="quote-card">
-            <div class="stars">?????</div>
-            <p>Tomamos decisiones más claras y logramos mejorar nuestro crecimiento sin perder foco operativo.</p>
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>“Tomamos decisiones más claras y logramos mejorar nuestro crecimiento sin perder foco operativo.”</p>
             <div class="person">
               <div class="avatar">ML</div>
               <div>
@@ -929,8 +950,8 @@
           </article>
 
           <article class="quote-card">
-            <div class="stars">?????</div>
-            <p>Nuestra transformación digital fue mucho más eficiente gracias a un acompañamiento claro y práctico.</p>
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>“Nuestra transformación digital fue mucho más eficiente gracias a un acompañamiento claro y práctico.”</p>
             <div class="person">
               <div class="avatar">JC</div>
               <div>
@@ -941,8 +962,8 @@
           </article>
 
           <article class="quote-card">
-            <div class="stars">?????</div>
-            <p>Nos ayudaron a alinear al equipo y a convertir objetivos ambiciosos en ejecución real.</p>
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>“Nos ayudaron a alinear al equipo y a convertir objetivos ambiciosos en ejecución real.”</p>
             <div class="person">
               <div class="avatar">AR</div>
               <div>
@@ -962,7 +983,9 @@
             <h2>Construyamos tu próximo paso.</h2>
             <p>Agenda una conversación y descubre cómo mejorar tu estrategia, operación y crecimiento.</p>
           </div>
-          <a href="mailto:hola@solstice-consultora.com" class="btn btn-primary">hola@solstice-consultora.com</a>
+          <a href="mailto:hola@solstice-consultora.com" class="btn btn-primary">
+            hola@solstice-consultora.com
+          </a>
         </div>
       </div>
     </section>
@@ -970,9 +993,12 @@
 
   <footer>
     <div class="container footer-row">
-      <div class="brand" style="color:white;">
-        <span class="brand-mark">S</span>
-        Solstice
+      <div class="brand">
+        <img
+          src="logo-gite.png"
+          alt="GITE — Grupo de Investigación en Tecnología Educativa"
+          class="brand-logo"
+        />
       </div>
       <div>© 2026 Solstice Consultora. Todos los derechos reservados.</div>
     </div>
