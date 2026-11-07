@@ -4,7 +4,7 @@
 // enlaces: agregá solo URLs reales. No son obligatorios.
 window.GITE_EQUIPO = [
   {
-    nombre: "Nombre y apellido",
+    nombre: "Dario Rodriguez",
     rol: "Rol o función en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación"],
