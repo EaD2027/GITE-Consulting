@@ -1,1 +1,1 @@
-# GITE-Consulting
+# EdTech Research Group Consultant
