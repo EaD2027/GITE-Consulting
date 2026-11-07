@@ -6,7 +6,9 @@ Sitio estático, responsive y en español, listo para alojar en **GitHub Pages**
 
 - `index.html`: contenido y estructura.
 - `styles.css`: identidad visual, diseño responsive y animaciones.
-- `script.js`: menú móvil, animación de entrada y formulario de contacto.
+- `script.js`: menú móvil, tarjetas del equipo, animación de entrada y formulario de contacto.
+- `equipo.js`: perfiles del equipo (nombre, función, biografía, foto, especialidades y enlaces).
+- `assets/equipo/`: fotografías del equipo y avatar genérico cuando falta una imagen.
 - `config.js`: configuración del correo de contacto.
 - `assets/gite-logo.png`: logo proporcionado, optimizado para cabecera (fondo transparente).
 - `assets/favicon.svg`: ícono de la pestaña.
@@ -53,3 +55,14 @@ Y abrí `http://localhost:8000`.
 ## Accesibilidad y mantenimiento
 
 Incluye navegación por teclado, enlace para saltar al contenido, encabezados semánticos, etiquetas de formulario, navegación móvil accesible, soporte de movimiento reducido y adaptación a celulares. La web no tiene cookies ni analítica de terceros.
+
+## Cómo completar la sección «Equipo GITE»
+
+1. Abrí `equipo.js` con cualquier editor de texto. Encontrarás **tres fichas de ejemplo**, claramente identificadas con nombres de muestra: no representan integrantes reales.
+2. Cambiá `nombre`, `rol`, `perfil` y el listado `areas` de cada ficha.
+3. Guardá la fotografía de cada integrante en `assets/equipo/`, por ejemplo `maria-perez.jpg`, y cambiá el valor de `foto` por `"assets/equipo/maria-perez.jpg"`. Recomendado: JPG o WebP, encuadre horizontal 5:4, al menos 800 × 640 px y peso menor a 300 KB. Si no hay una imagen, se mostrará un avatar neutro.
+4. Para agregar integrantes, copiá uno de los objetos entre `{ ... }` y agregalo al listado separado por coma. Para quitar integrantes, eliminá el objeto correspondiente.
+5. Opcionalmente completá `enlaces` con datos verificados: `[{ texto: "ORCID", url: "https://orcid.org/0000-..." }]`. Solo se admiten enlaces HTTPS y correos `mailto:`.
+6. Subí los archivos modificados al mismo repositorio de GitHub. GitHub Pages actualizará la página.
+
+La sección se adapta automáticamente a la cantidad de integrantes y funciona en dispositivos móviles. El perfil y la fotografía quedan visibles dentro de cada tarjeta, sin necesidad de hacer clic. **Antes de publicar, sustituí las fichas de ejemplo o eliminá las que no uses**.

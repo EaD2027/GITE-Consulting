@@ -19,6 +19,68 @@
     }), {threshold: 0.09});
     reveal.forEach(el => observer.observe(el));
   } else { reveal.forEach(el => el.classList.add('visible')); }
+  // Tarjetas del equipo, configurables desde equipo.js.
+  const grid = document.querySelector('#team-grid');
+  const people = Array.isArray(window.GITE_EQUIPO) ? window.GITE_EQUIPO : [];
+  const placeholder = 'assets/equipo/avatar-placeholder.svg';
+  const safeUrl = value => {
+    if (typeof value !== 'string') return null;
+    const url = value.trim();
+    if (/^https:\/\//i.test(url) || /^mailto:[^\s@]+@[^\s@]+$/i.test(url)) return url;
+    return null;
+  };
+  if (grid) {
+    people.forEach(person => {
+      const card = document.createElement('article');
+      card.className = 'team-card reveal visible';
+      const photo = document.createElement('div');
+      photo.className = 'team-photo';
+      const image = document.createElement('img');
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.src = typeof person.foto === 'string' && person.foto ? person.foto : placeholder;
+      image.alt = `Fotografía de ${person.nombre || 'integrante del equipo'}`;
+      image.onerror = () => { image.onerror = null; image.src = placeholder; image.alt = 'Imagen ilustrativa: fotografía pendiente'; };
+      photo.appendChild(image);
+      const content = document.createElement('div');
+      content.className = 'team-card-body';
+      const role = document.createElement('p');
+      role.className = 'team-role';
+      role.textContent = person.rol || 'Integrante GITE';
+      const name = document.createElement('h3');
+      name.textContent = person.nombre || 'Nombre y apellido';
+      const bio = document.createElement('p');
+      bio.className = 'team-bio';
+      bio.textContent = person.perfil || '';
+      content.append(role, name, bio);
+      if (Array.isArray(person.areas) && person.areas.length) {
+        const tags = document.createElement('div');
+        tags.className = 'team-areas';
+        person.areas.forEach(area => {
+          const tag = document.createElement('span');
+          tag.textContent = area;
+          tags.appendChild(tag);
+        });
+        content.appendChild(tags);
+      }
+      if (Array.isArray(person.enlaces) && person.enlaces.length) {
+        const links = document.createElement('div');
+        links.className = 'team-links';
+        person.enlaces.forEach(item => {
+          const href = safeUrl(item.url);
+          if (!href) return;
+          const a = document.createElement('a');
+          a.href = href;
+          a.textContent = item.texto || 'Ver perfil';
+          if (href.startsWith('https://')) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+          links.appendChild(a);
+        });
+        content.appendChild(links);
+      }
+      card.append(photo, content);
+      grid.appendChild(card);
+    });
+  }
   const form = document.querySelector('#contact-form');
   form?.addEventListener('submit', async event => {
     event.preventDefault();
