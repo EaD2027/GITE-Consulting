@@ -1,1 +1,0 @@
-# EdTech Research Group Consultant
