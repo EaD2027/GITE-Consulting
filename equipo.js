@@ -26,6 +26,14 @@ window.GITE_EQUIPO = [
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
     enlaces: []
+  },
+    {
+    nombre: "Cintia Cliso",
+    rol: "Investigadora en GITE",
+    perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
+    areas: ["Educación digital", "Tecnologia Educativa"],
+    foto: "assets/equipo/integrante-03.jpg",
+    enlaces: []
   }
 ];
 
