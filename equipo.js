@@ -5,7 +5,7 @@
 window.GITE_EQUIPO = [
   {
     nombre: "Dr. Dario Rodriguez",
-    rol: "Director en GITE",
+    rol: "Director - Investigador en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación"],
     foto: "assets/equipo/integrante-01.jpg",
@@ -13,7 +13,7 @@ window.GITE_EQUIPO = [
   },
   {
     nombre: "Esp. Elsa Reyes",
-    rol: "Coordinadora de Proyectos en GITE",
+    rol: "Coordinadora de Proyectos - Investigaroda Interna en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
     areas: ["Inteligencia artificial", "Analitica de Datos"],
     foto: "assets/equipo/integrante-02.jpg",
@@ -21,7 +21,7 @@ window.GITE_EQUIPO = [
   },
   {
     nombre: "Lic. Gastón Brito",
-    rol: "Investigador en GITE",
+    rol: "Investigador Interno en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
@@ -29,7 +29,7 @@ window.GITE_EQUIPO = [
   },
     {
     nombre: "Lic. Cintia Cliso",
-    rol: "Investigadora en GITE",
+    rol: "Investigadora Interna en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
@@ -37,7 +37,7 @@ window.GITE_EQUIPO = [
   },
       {
     nombre: "Lic. Leandro Bassani",
-    rol: "Investigador en GITE",
+    rol: "Investigador Externo en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
@@ -45,7 +45,7 @@ window.GITE_EQUIPO = [
   },
       {
     nombre: "Lic. Marina Mattarolo",
-    rol: "Investigadora en GITE",
+    rol: "Investigadora Externa en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
@@ -53,7 +53,7 @@ window.GITE_EQUIPO = [
   },
       {
     nombre: "Lic. Maria Victoria Murno",
-    rol: "Investigadora en GITE",
+    rol: "Investigadora Externa en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
@@ -61,7 +61,7 @@ window.GITE_EQUIPO = [
   },
       {
     nombre: "Lic. Belen Rios",
-    rol: "Investigadora en GITE",
+    rol: "Investigadora Externa en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
     foto: "assets/equipo/integrante-03.jpg",
