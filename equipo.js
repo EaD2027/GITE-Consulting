@@ -4,7 +4,7 @@
 // enlaces: agregá solo URLs reales. No son obligatorios.
 window.GITE_EQUIPO = [
   {
-    nombre: "Dario Rodriguez",
+    nombre: "Dr. Dario Rodriguez",
     rol: "Director en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación"],
@@ -12,7 +12,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
   {
-    nombre: "Elsa Reyes",
+    nombre: "Esp. Elsa Reyes",
     rol: "Coordinadora de Proyectos en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
     areas: ["Inteligencia artificial", "Analitica de Datos"],
@@ -20,7 +20,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
   {
-    nombre: "Gastón Brito",
+    nombre: "Lic. Gastón Brito",
     rol: "Investigador en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
@@ -28,7 +28,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
     {
-    nombre: "Cintia Cliso",
+    nombre: "Lic. Cintia Cliso",
     rol: "Investigadora en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
@@ -36,7 +36,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
       {
-    nombre: "Leandro Bassani",
+    nombre: "Lic. Leandro Bassani",
     rol: "Investigador en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
@@ -44,7 +44,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
       {
-    nombre: "Marina Mattarolo",
+    nombre: "Lic. Marina Mattarolo",
     rol: "Investigadora en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
@@ -52,7 +52,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
       {
-    nombre: "Maria Victoria Murno",
+    nombre: "Lic. Maria Victoria Murno",
     rol: "Investigadora en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
@@ -60,7 +60,7 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
       {
-    nombre: "Belen Rios",
+    nombre: "Lic. Belen Rios",
     rol: "Investigadora en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Tecnologia Educativa"],
