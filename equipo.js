@@ -13,7 +13,7 @@ window.GITE_EQUIPO = [
   },
   {
     nombre: "Esp. Elsa Reyes",
-    rol: "Coordinadora de Proyectos - Investigaroda Interna en GITE",
+    rol: "Coordinadora de Proyectos - Investigadora Interna en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
     areas: ["Inteligencia artificial", "Analitica de Datos"],
     foto: "assets/equipo/integrante-02.jpg",
