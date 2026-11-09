@@ -11,7 +11,8 @@
     nav.classList.remove('open');
     toggle?.setAttribute('aria-expanded', 'false');
   }));
-  document.querySelector('#year').textContent = new Date().getFullYear();
+  const yearEl = document.querySelector('#year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
   const reveal = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => {
@@ -19,6 +20,42 @@
     }), {threshold: 0.09});
     reveal.forEach(el => observer.observe(el));
   } else { reveal.forEach(el => el.classList.add('visible')); }
+
+  // Listado de publicaciones — sin contenido inventado.
+  const pubGrid = document.querySelector('#publication-list');
+  if (pubGrid) {
+    const category = pubGrid.dataset.category;
+    const records = window.GITE_PUBLICACIONES?.[category];
+    const items = Array.isArray(records) ? records : [];
+    if (!items.length) {
+      const empty = document.createElement('div');
+      empty.className = 'pub-empty';
+      const mark = document.createElement('span'); mark.className = 'pub-empty-mark'; mark.textContent = '↗';
+      const heading = document.createElement('h3'); heading.textContent = 'Publicaciones por incorporar';
+      const description = document.createElement('p'); description.textContent = pubGrid.dataset.empty || 'Todavía no se cargaron publicaciones.';
+      empty.append(mark, heading, description);
+      pubGrid.appendChild(empty);
+    } else {
+      items.forEach((item, idx) => {
+        const card = document.createElement('article'); card.className = 'pub-entry';
+        const kicker = document.createElement('div'); kicker.className = 'pub-entry-kicker';
+        kicker.textContent = `${String(idx + 1).padStart(2,'0')} / ${String(item.anio || 'Año sin especificar')}`;
+        const title = document.createElement('h3'); title.textContent = item.titulo || 'Título pendiente';
+        const authors = document.createElement('p'); authors.className = 'pub-entry-authors'; authors.textContent = item.autores || '';
+        const ref = document.createElement('p'); ref.className = 'pub-entry-reference'; ref.textContent = item.referencia || '';
+        card.append(kicker, title, authors, ref);
+        if (item.resumen) {const summary = document.createElement('p'); summary.className = 'pub-entry-summary'; summary.textContent = item.resumen; card.appendChild(summary);}
+        if (typeof item.url === 'string' && (/^https:\/\//i.test(item.url) || /^assets\/documentos\/[a-z0-9_./-]+\.pdf$/i.test(item.url))) {
+          const link = document.createElement('a'); link.className = 'pub-entry-link'; link.href = item.url;
+          link.textContent = item.enlaceTexto || 'Consultar publicación ↗';
+          if (item.url.startsWith('https://')) { link.target = '_blank'; link.rel = 'noopener noreferrer'; }
+          card.appendChild(link);
+        }
+        pubGrid.appendChild(card);
+      });
+    }
+  }
+
   // Tarjetas del equipo, configurables desde equipo.js.
   const grid = document.querySelector('#team-grid');
   const people = Array.isArray(window.GITE_EQUIPO) ? window.GITE_EQUIPO : [];

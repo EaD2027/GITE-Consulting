@@ -1,10 +1,14 @@
-# GITE — Sitio web institucional
+# GITE — Sitio web académico del grupo de investigación
 
 Sitio estático, responsive y en español, listo para alojar en **GitHub Pages**. No requiere Node, base de datos ni instalación.
 
 ## Archivos
 
-- `index.html`: contenido y estructura.
+- `index.html`: página principal, con accesos clicables a las tres categorías de publicaciones.
+- `articulos-cientificos.html`: listado de artículos científicos.
+- `ponencias-comunicaciones.html`: listado de ponencias y comunicaciones.
+- `informes-documentos.html`: listado de informes y documentos.
+- `publicaciones.js`: archivo editable con las referencias bibliográficas de las tres categorías.
 - `styles.css`: identidad visual, diseño responsive y animaciones.
 - `script.js`: menú móvil, tarjetas del equipo, animación de entrada y formulario de contacto.
 - `equipo.js`: perfiles del equipo (nombre, función, biografía, foto, especialidades y enlaces).
@@ -36,7 +40,7 @@ window.GITE_CONFIG = {
 
 El formulario **no envía datos a ningún servidor**: crea un correo precompletado con `mailto:` para que la persona lo envíe desde su aplicación de correo. Mientras no se configure el correo, intenta copiar la consulta al portapapeles (puede requerir HTTPS o permisos del navegador). Si necesitás recepción automática sin programa de correo, hay que integrar un servicio de formularios.
 
-**Contenidos:** los textos presentan áreas de interés y servicios propuestos; no afirman proyectos, resultados o publicaciones que no se hayan documentado. La sección Perspectivas contiene temas editoriales, no artículos publicados. Sumá integrantes, producciones científicas, publicaciones y casos cuando dispongas de la información verificable.
+**Contenidos:** los textos presentan líneas de investigación y espacios para proyectos; no afirman proyectos, resultados o publicaciones que no se hayan documentado. Las secciones Proyectos y Producción científica contienen categorías y marcadores de posición, no proyectos o artículos atribuidos al grupo. Sumá integrantes, producciones científicas, publicaciones y casos cuando dispongas de la información verificable.
 
 **Logo:** el archivo original es `logo-gite.png` (puede conservarse aparte). El sitio utiliza una versión recortada y transparente, optimizada para encabezados.
 
@@ -66,3 +70,44 @@ Incluye navegación por teclado, enlace para saltar al contenido, encabezados se
 6. Subí los archivos modificados al mismo repositorio de GitHub. GitHub Pages actualizará la página.
 
 La sección se adapta automáticamente a la cantidad de integrantes y funciona en dispositivos móviles. El perfil y la fotografía quedan visibles dentro de cada tarjeta, sin necesidad de hacer clic. **Antes de publicar, sustituí las fichas de ejemplo o eliminá las que no uses**.
+
+## Identidad de GITE
+
+Esta versión está dedicada exclusivamente al **grupo de investigación**. Se eliminó la consultoría de la navegación, los textos, los metadatos y las opciones de contacto. Los proyectos y las publicaciones se presentan como espacios por completar, sin atribuir investigaciones o resultados no verificados.
+
+Para incorporar proyectos reales, editar la sección `id="proyectos"` en `index.html`; para agregar publicaciones verificadas, editar `id="publicaciones"`.
+
+## Pertenencia institucional de GITE
+
+GITE desarrolla sus actividades en el ámbito de la **Dirección de Educación a Distancia de la Facultad Regional Buenos Aires de la Universidad Tecnológica Nacional (UTN.BA)**. Esta pertenencia figura en el encabezado, la presentación inicial, la sección **Sobre GITE / Identidad institucional**, los metadatos y el pie de página.
+
+**Actualización prevista para 2027:** el usuario indicó que la Dirección pasará a denominarse «Dirección de Educación Digital, Investigación y Vinculación Tecnológica». El sitio **mantiene la denominación vigente** hasta la formalización del cambio. Una vez aprobado, actualizá las referencias de la Dirección en `index.html` y, si corresponde, `README.md`.
+
+
+## Agregar publicaciones
+
+Abrí `publicaciones.js` y añadí entradas en cualquiera de las tres listas (`articulos`, `ponencias`, `informes`). Las páginas mostrarán automáticamente las fichas con título, autores, año, referencia y enlace. Los campos `resumen`, `url` y `enlaceTexto` son opcionales.
+
+```js
+window.GITE_PUBLICACIONES = {
+  articulos: [
+    {
+      titulo: "Título real del artículo",
+      autores: "Apellido, Nombre; Apellido, Nombre",
+      anio: "2026",
+      referencia: "Nombre de la revista, volumen(número), páginas",
+      resumen: "Síntesis breve, opcional.",
+      url: "https://doi.org/DOI-REAL",
+      enlaceTexto: "Ver artículo"
+    }
+  ],
+  ponencias: [],
+  informes: []
+};
+```
+
+**Nota:** el ejemplo anterior es demostrativo y no representa una publicación real. El archivo entregado mantiene las tres listas vacías. No se atribuyen publicaciones a GITE sin referencias verificadas.
+
+Podés subir PDF al repositorio dentro de `assets/documentos/`, y colocar una ruta como `assets/documentos/mi-informe.pdf` en el campo `url`. Los enlaces externos deben utilizar HTTPS.
+
+Para publicar la versión nueva, reemplazá los archivos de tu repositorio, incluyendo las **tres páginas HTML nuevas** y `publicaciones.js`.
