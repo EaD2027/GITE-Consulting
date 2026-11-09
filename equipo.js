@@ -13,7 +13,7 @@ window.GITE_EQUIPO = [
   },
   {
     nombre: "Esp. Elsa Reyes",
-    rol: "Coordinadora de Poryectos",
+    rol: "Coordinadora de Proyectos",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
     areas: ["Inteligencia artificial", "Educación superior"],
     foto: "assets/equipo/integrante-02.jpg",
