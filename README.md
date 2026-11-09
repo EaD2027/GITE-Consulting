@@ -111,3 +111,12 @@ window.GITE_PUBLICACIONES = {
 Podés subir PDF al repositorio dentro de `assets/documentos/`, y colocar una ruta como `assets/documentos/mi-informe.pdf` en el campo `url`. Los enlaces externos deben utilizar HTTPS.
 
 Para publicar la versión nueva, reemplazá los archivos de tu repositorio, incluyendo las **tres páginas HTML nuevas** y `publicaciones.js`.
+
+
+## Referencias históricas incorporadas (noviembre de 2026)
+
+Se incorporó en `publicaciones.js` el trabajo de Brito, Reyes y Rodríguez (2024), «Protocolo para Modalidades de Enseñanza Híbrida: Consideraciones Tecnopedagógicas», correspondiente a CICE 2024, p. 108. Fuente histórica: https://frba.utn.edu.ar/ead/publicaciones-academica-gite/ . Enlace al repositorio: https://ria.utn.edu.ar/items/72c253e3-b331-45d4-9591-aaea767db2c3 . Aunque figura en la página «Artículos científicos» por criterio de organización del sitio, es un trabajo de congreso y no un artículo de revista. El repositorio no permitió verificar metadatos adicionales en esta revisión.
+
+## Publicaciones históricas incorporadas
+
+En `publicaciones.js` se incluyen dos trabajos de congreso recuperados de la página histórica de UTN.BA: CICE 2024 (Brito, Reyes y Rodríguez) y TE&ET 2025 (Bassani, Reyes, Brito y Rodríguez). Los enlaces llevan a los repositorios originales. Se distinguen de los artículos de revista en las referencias.
