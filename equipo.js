@@ -15,7 +15,7 @@ window.GITE_EQUIPO = [
     nombre: "Esp. Elsa Reyes",
     rol: "Coordinadora de Proyectos en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
-    areas: ["Inteligencia artificial", "Educación superior"],
+    areas: ["Inteligencia artificial", "Investigación", "Analítica del aprendizaje"],
     foto: "assets/equipo/elsa.jpg",
     enlaces: []
   },
@@ -23,7 +23,7 @@ window.GITE_EQUIPO = [
     nombre: "Lic. Gastón Brito",
     rol: "Investigador en Formación en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
-    areas: ["Educación digital", "Analítica del aprendizaje"],
+    areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/gaston.jpg",
     enlaces: []
   },
@@ -31,7 +31,7 @@ window.GITE_EQUIPO = [
     nombre: "Lic. Cintia Cliso",
     rol: "Investigadora en Formación en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
-    areas: ["Educación digital", "Analítica del aprendizaje"],
+    areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/cintia.jpg",
     enlaces: []
   }
