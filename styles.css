@@ -18,7 +18,7 @@
    Se respetan preferencias de movimiento reducido y el control de pausa manual. */
 .hero-visual{isolation:isolate}
 .hero-visual .visual-grid{animation:giteGridDrift 32s linear infinite;will-change:background-position}
-.hero-visual .shape-one{animation:giteRing 29s linear infinite;transform-origin:center;will-change:transform}
+.hero-visual .shape-one{animation:giteRing 12s linear infinite;transform-origin:center;will-change:transform}
 .hero-visual .shape-two{animation:giteDiamond 9s ease-in-out infinite;will-change:transform}
 .hero-visual .shape-three{animation:giteCircle 11s ease-in-out infinite;will-change:transform}
 .hero-visual .visual-line{display:block;opacity:0;animation:giteTitleIn .85s cubic-bezier(.2,.8,.2,1) forwards}
