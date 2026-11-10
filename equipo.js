@@ -40,7 +40,7 @@ window.GITE_EQUIPO = [
     rol: "Investigadora en Formación en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
-    foto: "assets/equipo/cintia.jpg",
+    foto: "assets/equipo/belen.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/maria-belen-rios/" }]
   },
       {
