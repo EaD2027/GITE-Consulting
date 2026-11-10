@@ -9,7 +9,7 @@ window.GITE_EQUIPO = [
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación"],
     foto: "assets/equipo/dario.jpg",
-    enlaces: []
+    enlaces: "ORCID", url: "https://orcid.org/"
   },
   {
     nombre: "Esp. Elsa Reyes",
