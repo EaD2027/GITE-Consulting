@@ -29,7 +29,7 @@
 .motion-toggle:hover,.motion-toggle:focus-visible{background:#443a66}
 .motion-toggle span{margin-left:5px;font-size:11px}
 @keyframes giteRing{from{transform:rotate(-25deg)}to{transform:rotate(335deg)}}
-@keyframes giteDiamond{0%,100%{transform:translateY(0) rotate(45deg)}50%{transform:translateY(-30px) rotate(51deg)}}
+@keyframes giteDiamond{0%,100%{transform:translateY(0) rotate(45deg)}50%{transform:translateY(-17px) rotate(51deg)}}
 @keyframes giteCircle{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(9px,-12px) scale(1.035)}}
 @keyframes giteGridDrift{from{background-position:0 0}to{background-position:48px 48px}}
 @keyframes giteTitleIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
