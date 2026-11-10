@@ -7,7 +7,7 @@ window.GITE_EQUIPO = [
     nombre: "Dr. Dario Rodriguez",
     rol: "Director en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
-    areas: ["Tecnología educativa", "Investigación"],
+    areas: ["Tecnología educativa", "Investigación", "Ing. de Espacios Virtuales"],
     foto: "assets/equipo/dario.jpg",
     enlaces: [{ texto: "ORCID", url: "https://orcid.org/" }]
   },
@@ -15,7 +15,7 @@ window.GITE_EQUIPO = [
     nombre: "Esp. Elsa Reyes",
     rol: "Coordinadora de Proyectos en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
-    areas: ["Inteligencia artificial", "Investigación", "Analítica del aprendizaje"],
+    areas: ["IA", "Investigación", "Analítica del aprendizaje"],
     foto: "assets/equipo/elsa.jpg",
     enlaces: []
   },
