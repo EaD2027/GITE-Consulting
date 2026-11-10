@@ -144,4 +144,13 @@
       }
     }
   });
+  // Permite pausar la animación por preferencia del visitante.
+  const motionToggle = document.querySelector('.motion-toggle');
+  const heroVisual = document.querySelector('.hero-visual');
+  motionToggle?.addEventListener('click', () => {
+    const paused = heroVisual.classList.toggle('is-paused');
+    motionToggle.setAttribute('aria-pressed', String(paused));
+    motionToggle.setAttribute('aria-label', paused ? 'Reanudar animación de las figuras' : 'Pausar animación de las figuras');
+    motionToggle.innerHTML = paused ? 'Reanudar movimiento <span aria-hidden="true">▶</span>' : 'Pausar movimiento <span aria-hidden="true">Ⅱ</span>';
+  });
 })();

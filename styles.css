@@ -13,3 +13,36 @@
 .publication-card-link{display:block;color:inherit;text-decoration:none}.publication-card-link:hover h3,.publication-card-link:focus-visible h3{color:var(--violet)}.publication-card-cta{display:inline-flex;margin-top:12px;font-weight:800;font-size:12px;letter-spacing:.01em;color:var(--violet);text-decoration:underline;text-underline-offset:5px}.publication-card-cta:hover{color:var(--pink)}
 .pub-hero{background:#f2efed;padding-top:70px;padding-bottom:85px}.pub-breadcrumb{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:12px;color:#6a6470;margin-bottom:72px}.pub-breadcrumb a:hover{color:var(--violet);text-decoration:underline}.pub-hero-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(210px,0.6fr);gap:45px;align-items:end}.pub-hero h1{font-size:clamp(44px,6vw,83px);line-height:1.06;max-width:810px;letter-spacing:-.065em;margin:20px 0 25px}.pub-accent{color:var(--orange)}.pub-lead{font-size:clamp(16px,1.65vw,20px);line-height:1.7;max-width:700px;color:#625c66;margin-bottom:32px}.pub-hero-graphic{height:250px;display:flex;align-items:center;justify-content:space-between;padding:28px;overflow:hidden;background:var(--violet);color:#fff;font-weight:800;letter-spacing:-.08em;font-size:65px;position:relative}.pub-hero-graphic:before{content:'';position:absolute;border:36px solid var(--yellow);width:170px;height:170px;border-radius:50%;right:-72px;top:-69px}.pub-hero-graphic span{position:relative;z-index:1}.pub-hero-graphic span:last-child{align-self:flex-end;color:var(--yellow)}.pub-content{background:#fff;min-height:360px}.pub-content-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:35px}.pub-content-heading h2,.pub-other h2{font-size:clamp(32px,3.7vw,48px);letter-spacing:-.05em}.pub-content-heading p{color:var(--muted);font-size:13px;line-height:1.8;max-width:330px}.pub-record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.pub-empty{border:1px dashed #cfc8d2;background:#f9f8fa;padding:45px;grid-column:1/-1;min-height:230px}.pub-empty-mark{display:block;font-size:32px;color:var(--violet);margin-bottom:23px}.pub-empty h3{font-size:24px;letter-spacing:-.04em}.pub-empty p{font-size:14px;color:var(--muted);line-height:1.75}.pub-entry{border:1px solid #e6e2e7;padding:34px;display:flex;flex-direction:column;gap:13px}.pub-entry-kicker{color:var(--violet);font-size:11px;font-weight:800;letter-spacing:.09em}.pub-entry h3{font-size:24px;line-height:1.3;letter-spacing:-.04em}.pub-entry-authors{font-weight:700;font-size:13px}.pub-entry-reference{font-size:13px;color:#635d68;line-height:1.7}.pub-entry-summary{font-size:13px;color:var(--muted);line-height:1.8}.pub-entry-link{font-size:12px;font-weight:800;color:var(--violet);margin-top:auto;padding-top:16px;text-decoration:underline;text-underline-offset:4px}.pub-other{background:#f0eeeb}.pub-other-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-top:28px}.pub-other-card{background:#fff;border:1px solid #e5e0e6;min-height:185px;padding:26px;display:flex;flex-direction:column;gap:18px;transition:border-color .2s}.pub-other-card:hover{border-color:var(--violet)}.pub-other-card span:first-child{font-size:10px;color:var(--violet);font-weight:800;letter-spacing:.06em}.pub-other-card strong{font-size:23px;letter-spacing:-.045em}.pub-other-card span:last-child{align-self:flex-end;font-size:22px;color:var(--orange)}
 @media(max-width:760px){.pub-hero{padding-top:45px;padding-bottom:60px}.pub-breadcrumb{margin-bottom:36px}.pub-hero-layout{grid-template-columns:1fr}.pub-hero-graphic{height:150px;font-size:50px}.pub-content-heading{display:block}.pub-record-grid,.pub-other-grid{grid-template-columns:1fr}.pub-empty{padding:28px}.pub-entry{padding:25px}}
+
+/* GITE / Motion editorial. Las figuras del hero se mueven de manera independiente.
+   Se respetan preferencias de movimiento reducido y el control de pausa manual. */
+.hero-visual{isolation:isolate}
+.hero-visual .visual-grid{animation:giteGridDrift 32s linear infinite;will-change:background-position}
+.hero-visual .shape-one{animation:giteRing 29s linear infinite;transform-origin:center;will-change:transform}
+.hero-visual .shape-two{animation:giteDiamond 9s ease-in-out infinite;will-change:transform}
+.hero-visual .shape-three{animation:giteCircle 11s ease-in-out infinite;will-change:transform}
+.hero-visual .visual-line{display:block;opacity:0;animation:giteTitleIn .85s cubic-bezier(.2,.8,.2,1) forwards}
+.hero-visual .visual-line:nth-child(2){animation-delay:.16s}
+.hero-visual .visual-line:nth-child(3){animation-delay:.3s}
+.hero-visual .visual-line.accent{color:var(--yellow)}
+.motion-toggle{position:absolute;bottom:49px;right:24px;z-index:5;background:#161321b3;color:white;border:1px solid #ffffff54;border-radius:30px;padding:7px 11px;font-size:10px;letter-spacing:.02em;cursor:pointer;backdrop-filter:blur(6px);transition:background .2s}
+.motion-toggle:hover,.motion-toggle:focus-visible{background:#443a66}
+.motion-toggle span{margin-left:5px;font-size:11px}
+@keyframes giteRing{from{transform:rotate(-25deg)}to{transform:rotate(335deg)}}
+@keyframes giteDiamond{0%,100%{transform:translateY(0) rotate(45deg)}50%{transform:translateY(-17px) rotate(51deg)}}
+@keyframes giteCircle{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(9px,-12px) scale(1.035)}}
+@keyframes giteGridDrift{from{background-position:0 0}to{background-position:48px 48px}}
+@keyframes giteTitleIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.hero-visual.is-paused .visual-grid,.hero-visual.is-paused .shape,.hero-visual.is-paused .visual-line{animation-play-state:paused!important}
+@media(max-width:760px){.motion-toggle{bottom:44px;right:16px;font-size:9px}.hero-visual .visual-title{font-size:clamp(26px,5vw,34px)}}
+@media(prefers-reduced-motion:reduce){.hero-visual .visual-grid,.hero-visual .shape,.hero-visual .visual-line{animation:none!important;will-change:auto}.hero-visual .visual-line{opacity:1!important}.motion-toggle{display:none}}
+
+/* Equipo GITE: retratos compactos, prioridad al perfil académico. */
+.team-card{padding-top:26px}
+.team-photo{width:112px;height:112px;aspect-ratio:1/1;margin:0 auto;border-radius:50%;border:3px solid #eee9f5;background:#e5e0ed;flex:none}
+.team-photo img{width:100%;height:100%;object-fit:cover;object-position:center 25%;border-radius:50%}
+.team-card-body{padding:18px 24px 26px}
+.team-card h3{font-size:22px;margin-bottom:12px}
+.team-role{margin-bottom:9px}
+.team-bio{margin-bottom:18px}
+@media(max-width:760px){.team-photo{width:96px;height:96px;aspect-ratio:1/1}.team-card{padding-top:22px}.team-card-body{padding:16px 22px 24px}}

@@ -120,3 +120,13 @@ Se incorporó en `publicaciones.js` el trabajo de Brito, Reyes y Rodríguez (202
 ## Publicaciones históricas incorporadas
 
 En `publicaciones.js` se incluyen dos trabajos de congreso recuperados de la página histórica de UTN.BA: CICE 2024 (Brito, Reyes y Rodríguez) y TE&ET 2025 (Bassani, Reyes, Brito y Rodríguez). Los enlaces llevan a los repositorios originales. Se distinguen de los artículos de revista en las referencias.
+
+
+## Animación de la portada
+
+La composición «Nuevas preguntas. Nuevas formas de aprender.» tiene movimiento suave en sus figuras geométricas: anillo que gira, rombo flotante, círculo en desplazamiento y cuadrícula animada. El texto aparece por líneas al ingresar. El visitante puede pausar o reanudar la animación. El sitio respeta la opción del sistema «reducir movimiento» y no precisa bibliotecas ni recursos externos para estas animaciones.
+
+Para ajustar velocidades, buscá en `styles.css` las reglas `giteRing`, `giteDiamond` y `giteCircle`.
+
+## Fotografías del equipo
+Las fotografías de los investigadores se muestran en retratos circulares compactos de 112 × 112 px (96 × 96 px en móviles). Para cambiar una fotografía, editá la ruta `foto` en `equipo.js` y subí el archivo a `assets/equipo/`. Se recomienda usar una fotografía cuadrada de al menos 400 × 400 px, con el rostro centrado.
