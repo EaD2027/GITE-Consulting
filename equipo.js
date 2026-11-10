@@ -12,19 +12,27 @@ window.GITE_EQUIPO = [
     enlaces: []
   },
   {
-    nombre: "Nombre y apellido",
-    rol: "Rol o función en GITE",
+    nombre: "Elsa Reyes",
+    rol: "Coordinadora de Proyectos en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
     areas: ["Inteligencia artificial", "Educación superior"],
-    foto: "assets/equipo/integrante-02.jpg",
+    foto: "assets/equipo/elsa.jpg",
     enlaces: []
   },
   {
-    nombre: "Nombre y apellido",
-    rol: "Rol o función en GITE",
+    nombre: "Gastón Brito",
+    rol: "Investigador en Formación en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Analítica del aprendizaje"],
-    foto: "assets/equipo/integrante-03.jpg",
+    foto: "assets/equipo/gaston.jpg",
+    enlaces: []
+  },
+    {
+    nombre: "Cintia Cliso",
+    rol: "Investigadora en Formación en GITE",
+    perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
+    areas: ["Educación digital", "Analítica del aprendizaje"],
+    foto: "assets/equipo/cintia.jpg",
     enlaces: []
   }
 ];
