@@ -48,15 +48,15 @@ window.GITE_EQUIPO = [
     rol: "Investigadora en Formación en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
-    foto: "assets/equipo/cintia.jpg",
-    enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/maria-victoria-murno-583b05209/" }]
+    foto: "assets/equipo/victoria.jpg",
+    enlaces: [{ texto: "Linkedin", url: "https://www.linkedin.com/in/maria-victoria-murno-583b05209/" }]
   },
       {
     nombre: "Lic. Leandro Bassani",
     rol: "Investigador en Formación en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
-    foto: "assets/equipo/cintia.jpg",
+    foto: "assets/equipo/leandro.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/leandro-h-bassani-7a49b6260/" }]
   }
 ];
