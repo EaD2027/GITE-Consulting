@@ -4,11 +4,11 @@
 // enlaces: agregá solo URLs reales. No son obligatorios.
 window.GITE_EQUIPO = [
   {
-    nombre: "Nombre y apellido",
-    rol: "Rol o función en GITE",
+    nombre: "Dr. Dario Rodriguez",
+    rol: "Director en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación"],
-    foto: "assets/equipo/integrante-01.jpg",
+    foto: "assets/equipo/dario.jpg",
     enlaces: []
   },
   {
