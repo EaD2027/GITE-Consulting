@@ -23,6 +23,15 @@ window.GITE_PUBLICACIONES = {
         "resumen": "Publicación en actas de congreso. La referencia enlaza al libro de actas disponible en SEDICI, repositorio de la Universidad Nacional de La Plata.",
         "url": "https://sedici.unlp.edu.ar/handle/10915/184997",
         "enlaceTexto": "Consultar actas en SEDICI ↗"
+    },
+         {
+        "titulo": "DARTA. Propuesta de formación a distancia en abordaje educativo-terapéutico basado en competencias y tecnologías de apoyo",
+        "autores": "Bassani, Leandro H.; Reyes, Elsa; Brito, Carlos Gastón; Rodríguez, Darío",
+        "anio": "2025",
+        "referencia": "Trabajo publicado en las actas del XX Congreso de Tecnología en Educación y Educación en Tecnología (TE&ET 2025), Universidad Nacional de Avellaneda (UNDAV), 12 y 13 de junio de 2025, pp. 405–423. ISBN 978-987-8994-42-0.",
+        "resumen": "Publicación en actas de congreso. La referencia enlaza al libro de actas disponible en SEDICI, repositorio de la Universidad Nacional de La Plata.",
+        "url": "https://sedici.unlp.edu.ar/handle/10915/184997",
+        "enlaceTexto": "Consultar actas en SEDICI ↗"
     }
   ],
   ponencias: [],
