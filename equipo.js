@@ -8,7 +8,7 @@ window.GITE_EQUIPO = [
     rol: "Director en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación", "Ing. de Espacios Virtuales"],
-    foto: "assets/equipo/dario.jpg" title="Dr. Dario Rodriguez",
+    foto: "assets/equipo/dario.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/dario-rodriguez-sn/" }]
   },
   {
