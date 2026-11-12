@@ -6,7 +6,7 @@ window.GITE_EQUIPO = [
   {
     nombre: "Dr. Dario Rodriguez",
     rol: "Director en GITE",
-    perfil: "Es un profesional con amplia trayectoria en docencia universitaria, investigación y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), ha dedicado gran parte de su carrera al estudio de los entornos digitales, el aprendizaje colaborativo y la construcción del conocimiento. Cuenta con experiencia en la dirección de proyectos de investigación y la formación de investigadores. Actualmente, se desempeña como Director General de Educación a Distancia en el Rectorado de la Universidad Tecnológica Nacional (UTN) y Director de Educación a Distancia en la UTN Facultad Regional Buenos Aires (UTN.BA). Sus intereses de investigación se centran en la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
+    perfil: "Es un profesional con formación doctoral en Ciencias Informáticas y amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Su experiencia se centra en el estudio de los espacios virtuales de trabajo, el aprendizaje colaborativo y la construcción del conocimiento, con participación en la dirección de proyectos de investigación y formación de investigadores. Actualmente, se desempeña como Director General de Educación a Distancia en el Rectorado de la UTN y Director de Educación a Distancia en la UTN Facultad Regional Buenos Aires (UTN.BA). Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
     areas: ["Tecnología educativa", "Investigación", "Ing. de Espacios Virtuales"],
     foto: "assets/equipo/dario.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/dario-rodriguez-sn/" }]
@@ -22,7 +22,7 @@ window.GITE_EQUIPO = [
   {
     nombre: "Lic. Gastón Brito",
     rol: "Investigador en Formación en GITE",
-    perfil: "Se dedica a la Tecnología Educativa, a las Matemáticas y posee formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña en educación superior como docente, asesor tecnopedagógico y formador docente en propuestas de educación a distancia. Sus temas de interés e investigación se centran en tecnologías digitales, educación mixta, híbrida y a distancia, inteligencia artificial generativa aplicada a la educación, y enseñanza de las ciencias y la matemática. Ha participado en trabajos sobre modalidades híbridas y propuestas de formación a distancia mediadas por tecnologías.",
+    perfil: "Es un profesional formado en Tecnología Educativa y profesor de Matemática, con formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña como docente universitario, asesor tecnopedagógico y formador docente en educación a distancia. Sus intereses de investigación se centran en la educación híbrida, la inteligencia artificial generativa y la enseñanza de las ciencias y la matemática. Ha participado en trabajos vinculados con el desarrollo de propuestas educativas híbridas y a distancia mediadas por tecnologías.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/gaston.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/carlos-gaston-brito-bab294250/" }]
@@ -38,7 +38,7 @@ window.GITE_EQUIPO = [
       {
     nombre: "Lic. Belen Rios",
     rol: "Investigadora en Formación en GITE",
-    perfil: "Se dedica a la tecnología educativa y a la educación híbrida. Investiga el uso pedagógico de los LMS y la integración de la inteligencia artificial generativa en la educación. Es coautora de trabajos sobre simulación situada con IA (e-labs) y sobre el uso de NotebookLM en la gestión docente.",
+    perfil: "Es una profesional formada en Tecnología Educativa, con experiencia en educación híbrida y tecnologías digitales aplicadas a la enseñanza. Su trabajo se centra en la investigación sobre el uso pedagógico de los entornos virtuales de aprendizaje y la integración de la inteligencia artificial generativa en la educación superior. Es coautora de trabajos sobre simulación situada con inteligencia artificial (e-labs) y el uso de NotebookLM en la gestión docente.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/belen.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/maria-belen-rios/" }]
@@ -62,7 +62,7 @@ window.GITE_EQUIPO = [
         {
     nombre: "Mg. Marina Mattarolo",
     rol: "Investigadora en Formación en GITE",
-    perfil: "Se especializa en educación a distancia, tecnología educativa y gestión de la calidad académica en entornos virtuales. Su trabajo se centra en el diseño y la evaluación de propuestas educativas, la mejora de los procesos de enseñanza y aprendizaje y el acompañamiento a equipos docentes. Explora la integración de tecnologías emergentes, inteligencia artificial y experiencias de simulación en la educación superior, con especial interés en la innovación pedagógica y la mejora continua.",
+    perfil: "Es una profesional con formación de posgrado en Tecnología Educativa y experiencia en educación a distancia, diseño tecnopedagógico y gestión de la calidad académica en entornos virtuales. Su trayectoria se centra en el diseño y la evaluación de propuestas educativas, la mejora de los procesos de enseñanza y aprendizaje y el acompañamiento a equipos docentes. Sus intereses de investigación incluyen la inteligencia artificial, las tecnologías emergentes y las experiencias de simulación aplicadas a la educación superior.",
     areas: ["Gestión de la Calidad Académica", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/marina.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/marina-mattarolo-86068719b/" }]
