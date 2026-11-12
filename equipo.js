@@ -6,7 +6,7 @@ window.GITE_EQUIPO = [
   {
     nombre: "Dr. Dario Rodriguez",
     rol: "Director en GITE",
-    perfil: "Es un profesional con formación doctoral en Ciencias Informáticas y amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Su experiencia se centra en el estudio de los espacios virtuales de trabajo, el aprendizaje colaborativo y la construcción del conocimiento, con participación en la dirección de proyectos de investigación y formación de investigadores. Actualmente, se desempeña como Director General de Educación a Distancia en el Rectorado de la UTN y Director de Educación a Distancia en la UTN Facultad Regional Buenos Aires (UTN.BA). Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
+    perfil: "Es un profesional con formación doctoral en Ciencias Informáticas y amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Su experiencia se centra en el estudio de los espacios virtuales de trabajo, el aprendizaje colaborativo y la construcción del conocimiento, con participación en la dirección de proyectos de investigación y formación de investigadores. Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
     areas: ["Tecnología educativa", "Investigación", "Ing. de Espacios Virtuales"],
     foto: "assets/equipo/dario.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/dario-rodriguez-sn/" }]
@@ -46,7 +46,7 @@ window.GITE_EQUIPO = [
       {
     nombre: "Lic. Victoria Murno",
     rol: "Investigadora en Formación en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    perfil: "Es una profesional con formación en Tecnología Educativa, profesora de Educación Especial en la modalidad de sordos e hipoacúsicos y con formación complementaria en Neurociencias aplicadas a la Educación. Su trayectoria académica integra la educación especial y las tecnologías digitales, con especial interés en la accesibilidad, la inclusión educativa y las posibilidades que ofrecen las tecnologías para favorecer los procesos de enseñanza y aprendizaje.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/victoria.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://www.linkedin.com/in/maria-victoria-murno-583b05209/" }]
