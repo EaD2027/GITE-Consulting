@@ -30,7 +30,7 @@ window.GITE_EQUIPO = [
     {
     nombre: "Lic. Cintia Cliso",
     rol: "Investigadora en Formación en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    perfil: "Es una profesional con formación en Tecnología Educativa y experiencia en docencia universitaria en propuestas de educación a distancia. Sus intereses de investigación se centran en la integración pedagógica de la inteligencia artificial generativa y la mediación tecnopedagógica en la educación superior. Su trabajo incorpora una perspectiva filosófica orientada al pensamiento crítico y reflexivo, con especial atención a los fundamentos epistemológicos que sustentan el uso de las tecnologías digitales en los procesos de enseñanza y aprendizaje.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/cintia.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://www.linkedin.com/in/cintia-elizabeth-cliso-93361331a/" }]
