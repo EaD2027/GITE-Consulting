@@ -54,7 +54,7 @@ window.GITE_EQUIPO = [
       {
     nombre: "Lic. Leandro Bassani",
     rol: "Investigador en Formación en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    perfil: "Es un profesional con formación en Tecnología Educativa y profesor de Historia, que continúa ampliando su trayectoria académica en el campo de las tecnologías inclusivas en educación. Su interés se centra en la integración de tecnologías digitales en los procesos de enseñanza y aprendizaje, con especial atención a la accesibilidad y la inclusión educativa. Sus intereses de investigación se orientan a la innovación en los abordajes tecnoeducativos y al desarrollo de propuestas que favorezcan nuevas experiencias de aprendizaje en la educación superior.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/leandro.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/leandro-h-bassani-7a49b6260/" }]
