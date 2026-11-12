@@ -6,7 +6,7 @@ window.GITE_EQUIPO = [
   {
     nombre: "Dr. Dario Rodriguez",
     rol: "Director en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    perfil: "Es un profesional con amplia trayectoria en docencia universitaria, investigación y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), ha dedicado gran parte de su carrera al estudio de los entornos digitales, el aprendizaje colaborativo y la construcción del conocimiento. Cuenta con experiencia en la dirección de proyectos de investigación y la formación de investigadores. Actualmente, se desempeña como Director General de Educación a Distancia en el Rectorado de la Universidad Tecnológica Nacional (UTN) y Director de Educación a Distancia en la UTN Facultad Regional Buenos Aires (UTN.BA). Sus intereses de investigación se centran en la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
     areas: ["Tecnología educativa", "Investigación", "Ing. de Espacios Virtuales"],
     foto: "assets/equipo/dario.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/dario-rodriguez-sn/" }]
@@ -22,7 +22,7 @@ window.GITE_EQUIPO = [
   {
     nombre: "Lic. Gastón Brito",
     rol: "Investigador en Formación en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    perfil: "Se dedica a la Tecnología Educativa, a las Matemáticas y posee formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña en educación superior como docente, asesor tecnopedagógico y formador docente en propuestas de educación a distancia. Sus temas de interés e investigación se centran en tecnologías digitales, educación mixta, híbrida y a distancia, inteligencia artificial generativa aplicada a la educación, y enseñanza de las ciencias y la matemática. Ha participado en trabajos sobre modalidades híbridas y propuestas de formación a distancia mediadas por tecnologías.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/gaston.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/carlos-gaston-brito-bab294250/" }]
