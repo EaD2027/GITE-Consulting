@@ -38,7 +38,7 @@ window.GITE_EQUIPO = [
       {
     nombre: "Lic. Belen Rios",
     rol: "Investigadora en Formación en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    perfil: "Se dedica a la tecnología educativa y a la educación híbrida. Investiga el uso pedagógico de los LMS y la integración de la inteligencia artificial generativa en la educación. Es coautora de trabajos sobre simulación situada con IA (e-labs) y sobre el uso de NotebookLM en la gestión docente.",
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/belen.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/maria-belen-rios/" }]
@@ -58,6 +58,14 @@ window.GITE_EQUIPO = [
     areas: ["Educación digital", "Investigación", "Tecnología educativa"],
     foto: "assets/equipo/leandro.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/leandro-h-bassani-7a49b6260/" }]
+  },
+        {
+    nombre: "Mg. Marina Mattarolo",
+    rol: "Investigadora en Formación en GITE",
+    perfil: "Se especializa en educación a distancia, tecnología educativa y gestión de la calidad académica en entornos virtuales. Su trabajo se centra en el diseño y la evaluación de propuestas educativas, la mejora de los procesos de enseñanza y aprendizaje y el acompañamiento a equipos docentes. Explora la integración de tecnologías emergentes, inteligencia artificial y experiencias de simulación en la educación superior, con especial interés en la innovación pedagógica y la mejora continua.",
+    areas: ["Gestión de la Calidad Académica", "Investigación", "Tecnología educativa"],
+    foto: "assets/equipo/marina.jpg",
+    enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/marina-mattarolo-86068719b/" }]
   }
 ];
 
