@@ -7,7 +7,7 @@ window.GITE_EQUIPO = [
     nombre: "Dr. Dario Rodriguez",
     rol: "Director en GITE",
     perfil: "Es un profesional con formación en Ciencias Informáticas, Tecnología Informática Aplicada a la Educación y Comunicación Audiovisual, con amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), dirige grupos y proyectos de investigación vinculados con el aprendizaje colaborativo y la construcción del conocimiento. Actualmente, es Director General de Educación a Distancia y del SIED en Rectorado de la UTN y Director de Educación a Distancia en UTN.BA. Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
-    areas: ["Tecnología educativa", "Investigación", "Ing. de Espacios Virtuales"],
+    areas: ["Ingeniería de Espacios Virtuales de Trabajo (EVT) y aprendizaje colaborativo", "Tecnologías emergentes aplicadas a la educación", "Investigación e innovación en educación superior mediada por tecnologías"],
     foto: "assets/equipo/dario.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/dario-rodriguez-sn/" }]
   },
@@ -15,7 +15,7 @@ window.GITE_EQUIPO = [
     nombre: "Esp. Elsa Reyes",
     rol: "Coordinadora de Proyectos en GITE",
     perfil: "Es Profesora Superior en Ciencias de la Administración y Licenciada en Organización y Gestión Educativa. Cuenta con formación en Estadística e Indicadores Educativos, Tecnología Informática Aplicada en Educación, Ingeniería en Sistemas de Información y Ciencia de Datos. Se especializa en la intersección entre educación, ciencia de datos, estadística, tecnología e inteligencia artificial, con foco en la educación superior y la gestión educativa. Sus líneas de trabajo comprenden el análisis de datos e indicadores educativos, el estudio de trayectorias educativas, la construcción de sistemas de información y observatorios, y la integración de inteligencia artificial en contextos educativos.",
-    areas: ["IA", "Investigación", "Analítica del aprendizaje"],
+    areas: ["Analítica del aprendizaje e indicadores educativos", "Ciencia de datos e inteligencia artificial aplicada a la educación superior", "Análisis de trayectorias educativas y sistemas de información para la gestión académica"],
     foto: "assets/equipo/elsa.jpg",
     enlaces: [{ texto: "Linkedin", url: "https://ar.linkedin.com/in/elsa-reyes-3b6b9271/" }]
   },
